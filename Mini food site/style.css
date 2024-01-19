@@ -1,0 +1,48 @@
+* {
+  padding: 0px;
+  margin: 0 px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.logo {
+  width: 70px;
+  padding: 2px px;
+}
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  margin: 0 40px;
+}
+
+.menucard {
+  width: 150px;
+
+  background-color: lightblue;
+}
+.menucard:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+.foodlogo {
+  width: 150px;
+}
+.character {
+  padding-left: 10px;
+  overflow: hidden;
+}
+.search {
+  padding-left: 20px;
+}
+.Rest-MenuCard {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-left: 20px;
+  gap: 25px;
+}
