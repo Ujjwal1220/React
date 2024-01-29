@@ -1,0 +1,72 @@
+* {
+  margin: 0 px;
+  padding: 0;
+}
+
+.header {
+  background-color: #add8e6;
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo {
+  padding: 2px px;
+  width: 70px;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin: 0 40px;
+}
+
+.menucard {
+  background-color: #add8e6;
+  width: 150px;
+}
+
+.menucard:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.foodlogo {
+  width: 150px;
+}
+
+.character {
+  padding-left: 10px;
+  overflow: hidden;
+}
+
+.search {
+  background-color: #e0d2d2;
+  padding: 20px;
+  display: flex;
+}
+
+.login {
+  background-color: #e0d2d2;
+}
+
+.extra {
+  margin-right: 50px;
+  display: flex;
+}
+
+.Rest-MenuCard {
+  flex-wrap: wrap;
+  gap: 25px;
+  padding-left: 20px;
+  display: flex;
+}
+
+.body {
+  background-color: #f0f8ff;
+}
+
+/*# sourceMappingURL=first.3a01df49.css.map */

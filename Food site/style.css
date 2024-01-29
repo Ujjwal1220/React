@@ -1,0 +1,64 @@
+* {
+  padding: 0px;
+  margin: 0 px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  background-color: lightblue;
+}
+.logo {
+  width: 70px;
+  padding: 2px px;
+}
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  margin: 0 40px;
+}
+
+.menucard {
+  width: 150px;
+
+  background-color: lightblue;
+}
+.menucard:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+.foodlogo {
+  width: 150px;
+}
+.character {
+  padding-left: 10px;
+  overflow: hidden;
+}
+.search {
+  padding: 20px;
+  display: flex;
+  background-color: rgb(224, 210, 210);
+}
+
+.login {
+  background-color: rgb(224, 210, 210);
+}
+.extra {
+  display: flex;
+  margin-right: 50px;
+}
+
+.Rest-MenuCard {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-left: 20px;
+  gap: 25px;
+}
+
+.body {
+  background-color: aliceblue;
+}
